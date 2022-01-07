@@ -6,10 +6,8 @@ def f(b):
     for x in range (2,int((b+1)**0.5)+1):
         if arr[x]==0:
             continue
-        j=2
-        while x*j<=b:
-            arr[x*j]=0
-            j+=1
+        for y in range (x+x, b, x):
+            arr[i]=0
 f(b)
 for i in range(b+1):
     if arr[i]!=0:
