@@ -1,5 +1,5 @@
 b=int(input())
-# x와 arr[x]를 같은 수로 맞추기 위해 0부터 시작함
+# x와 arr[x]를 같은 수로 맞추기 위해 0부터 시작함.
 arr=[i for i in range(0,b+1)]
 arr[1]=0
 def f(b):
